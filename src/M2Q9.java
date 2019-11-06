@@ -3,8 +3,8 @@ public class M2Q9 {
 
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-        int a = scn.nextInt();
-        int b = scn.nextInt();
+        int a = scn.nextInt(); //int max =Math.max(a,b);
+        int b = scn.nextInt();//int min =Math.min(a,b);
         int max=0;
         for(int i=a;i>1;i--)
         {
